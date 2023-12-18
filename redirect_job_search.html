@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Link</title>
+    <script>
+        var repopublic = false;  
+        function openLink() {
+            if (repopublic) {
+                window.location.href = "https://github.com/jayanpahuja20/Backend_JobSearch";
+            } else {
+                window.location.href = "https://drive.google.com/drive/folders/1FA7BdUiErXZJ7jiafF6OWde-XFjWoLsL?usp=sharing";
+            }
+        }
+        window.onload = openLink;
+    </script>
+</head>
+<body>
+    <p>If you are not redirected, <a href="https://drive.google.com/drive/folders/1FA7BdUiErXZJ7jiafF6OWde-XFjWoLsL?usp=sharing">please click here</a>.</p>
+</body>
+</html>
